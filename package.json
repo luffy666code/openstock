@@ -1,0 +1,20 @@
+{
+  "name": "openstock-finnhub-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Unofficial lightweight MCP server inspired by OpenStock's Finnhub market-data features",
+  "license": "MIT",
+  "bin": {
+    "openstock-finnhub-mcp": "server.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "finnhub.mjs",
+    "tools.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node server.mjs" },
+  "dependencies": {}
+}
